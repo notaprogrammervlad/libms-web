@@ -27,8 +27,8 @@ This is a Library Management System built using **Laravel** and **Livewire**. It
 
 ### Requirements
 
-- PHP >= 7.4
-- Laravel >= 8.0
+- PHP >= 8.4
+- Laravel >= 11.0
 - Composer
 - MySQL (or any other supported database)
 
