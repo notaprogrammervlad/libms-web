@@ -87,6 +87,15 @@ $logout = function (Logout $logout) {
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')" wire:navigate>
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('books.index')" :active="request()->routeIs('books.index')" wire:navigate>
+                {{ __('Books') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('borrowers.index')" :active="request()->routeIs('borrowers.index')" wire:navigate>
+                {{ __('Borrowers') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('loans.index')" :active="request()->routeIs('loans.index')" wire:navigate>
+                {{ __('Loans') }}
+            </x-responsive-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->
